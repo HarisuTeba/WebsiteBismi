@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Sekolah</title>
+    <style>
+        
+        header {
+            background-color: #FF7F50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #FAEBD7;
+            color: #fff;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        button {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #333;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header>
+    <h1 class="title">Selamat Datang di Website Saya</h1>
+</header>
+
+<style>
+    .title {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a subtle text shadow */
+        transition: all 0.3s ease; /* Adds a smooth transition effect */
+    }
+
+    .title:hover {
+        transform: scale(1.1); /* Increases the size of the title on hover */
+        text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7); /* Changes the text shadow on hover */
+    }
+</style>
+    <button onclick="goBack()">Kembali</button>
+
+    <main>
+        <h2>Deskripsi Tugas</h2>
+        <p>Ini adalah Tugas HTML di Sekolah SMAN 1 yang dibimbing oleh Bu Hj Deswati</p>
+        <p>Profil Pemilik : </p>
+        <pre><li><a href="profil.html">Profil Data Diri</a></li></pre>
+        
+        <pre><li><a href="https://instagram.com/amrt.mii_?igshid=NzZlODBkYWE4Ng==">Instagram</a></li></pre>
+        <pre><li><a href="https://bismisman1.blogspot.com/?m=1/">Blogger Bismi</a></li></pre>
+        
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Tugas Sekolah SMAN 1</p>
+    </footer>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
